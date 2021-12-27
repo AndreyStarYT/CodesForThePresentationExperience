@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(39, 39, 39);
+    font-family: Rubik, sans-serif;
+    font-size:26px;
+    color:white;
+}
+
+.mainTitle {
+    font-family: Rubik, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size:66px;
+    text-align: center;
+    color:white
+}
+
+.infoText{
+    text-align:center
+}
+
+.mainImage{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    border-radius: 20px;
+    transform: scale(1);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.mainImage:hover, .mainImage:focus {
+    transform: scale(1.2);
+}
+.titleCategory {
+    font-size: 46px;
+    text-align: center
+}
+
+.listCodes {
+    margin-left: 35px;
+    margin-top: 55px;
+}
+
+.itemCode {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.itemCodeExpired{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.itemCode:hover, .itemCode:focus {
+    color: green;
+}
+
+.itemCodeExpired:hover, .itemCodeExpired:focus {
+    color: red;
+}
+
+.textCode{
+    text-decoration: underline
+}
+
+.descriptionCode {
+    font-size:20px
+}
